@@ -1,0 +1,55 @@
+.newcontent-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newcontent-container .content{
+    width: 100%;
+    padding: 96px;
+    background: #b6916e;
+    box-shadow:  0 0 100px rgba(170, 21, 21, 0.1);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newcontent-container section {
+    width: 100%;
+    max-width: 380px;
+}
+.newcontent-container section h1 {
+    color:#8B4513;
+    margin: 64px 0 32px;
+    font-size: 32px;
+}
+.newcontent-container .content section p {
+    font-size: 18px;
+    color:#8B4513;
+    line-height: 32px;
+}
+
+.newcontent-container .content form {
+    width: 100%;
+    max-width: 450px;
+
+}
+.newcontent-container .content form input, 
+.newcontent-container .content form select{
+    margin-top: 8px;
+    font: 500 18px Roboto, sans-serif;
+    width: 100%;
+    height: 60px;
+    color:#8B4513;
+    border: 1px solid #8B4513;
+    border-radius: 14px;
+    padding: 0 24px;
+    margin-top: 12px;
+}
+

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+
+}
+body {
+  font: 400 14px Roboto, sans-serif;
+  background-color: #EEEED1;
+  -webkit-font-smoothing: antialiased;
+}
+input, buttons, textarea {
+  font: 400 18px Roboto, sans-serif;
+}
+button {
+  margin-top: 3px;
+  cursor: pointer;
+}
+form input {
+  width: 100%;
+  height: 60px;
+  color:#8B4513;
+  border: 1px solid #8B4513;
+  border-radius: 14px;
+  padding: 0 24px;
+  margin-top: 12px;
+  
+}
+
+textarea{
+  margin-top: 8px;
+  font: 500 18px Roboto, sans-serif;
+  width: 100%;
+  height: 100px;
+  color:#8B4513;
+  border: 1px solid #8B4513;
+  border-radius: 14px;
+  padding: 0 24px;
+  margin-top: 12px;
+}
+
+
+.button {
+  width: 100%;
+  height: 60px;
+  background: #FFFF00;
+  border: 0;
+  border-radius: 14px;
+  color:  #8B4513;
+  font-weight: 700;
+  margin-top: 10px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height:  60px;
+  transition: filter 0.2s;
+  border: 2px solid #8B4513;
+}
+.button:hover {
+  filter: brightness(60%);
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  color: #41414d;
+  text-decoration: nome;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.back-link svg {
+  margin-right: 10px;
+}
+
+.back-link:hover {
+  opacity: 0.9;
+}
